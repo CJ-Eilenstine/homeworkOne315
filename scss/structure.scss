@@ -9,3 +9,11 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px;
 }
+
+.site-wrapper {
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: $background;
+}
